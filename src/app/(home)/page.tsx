@@ -2,6 +2,7 @@
 import {TypewriterEffectSmoothDemo} from "./components/TypewriterEffectSmoothDemo"
 import { TimelineDemo } from "./components/TimelineDemo";
 import { LampDemo } from "@/components/ui/lamp";
+import { FloatingDockDemo } from "./components/FloatingDockDemo";
 export default function Home() {
   return (
     <div className="w-full m-0 p-0">
@@ -13,6 +14,9 @@ export default function Home() {
       </div>
       <div className="-mt-20 m-0 p-0">
         <TimelineDemo />
+      </div>
+      <div className="-mt-50 p-0">
+        <FloatingDockDemo />
       </div>
     </div>
   );
