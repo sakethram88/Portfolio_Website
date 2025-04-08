@@ -8,10 +8,10 @@ export default function Home() {
       <div className="-mb-100 relative z-10 p-0">
         <LampDemo />
       </div>
-      <div className="-mt-130 relative z-20 p-0">
+      <div className="-mt-140 relative z-20 p-0">
         <TypewriterEffectSmoothDemo />
       </div>
-      <div className="m-0 p-0">
+      <div className="-mt-20 m-0 p-0">
         <TimelineDemo />
       </div>
     </div>
