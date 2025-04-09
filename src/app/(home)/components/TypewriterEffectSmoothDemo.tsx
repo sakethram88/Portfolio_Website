@@ -4,10 +4,11 @@ export function TypewriterEffectSmoothDemo() {
   const words = [
     {
       text: "Data",
+      className: "font-mono"
     },
     {
       text: "Engineer.",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "font-mono text-blue-500 dark:text-blue-500",
     },
   ];
   return (
