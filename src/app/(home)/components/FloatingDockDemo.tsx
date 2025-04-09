@@ -5,74 +5,48 @@ import {
   IconBrandGmail,
   IconBrandInstagram,
   IconBrandLinkedin,
-  IconHome,
-  IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
+/*import Image from "next/image";*/
 
 export function FloatingDockDemo() {
   const links = [
+    
     {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Components",
+      title: "Linkedin",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/saketh-ram-josyabhatla-4348801a6/",
     },
+    
     {
-      title: "Aceternity UI",
-      icon: (
-        <Image
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
+      title: "Gmail",
       icon: (
         <IconBrandGmail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "mailto:sakethram48@gmail.com",
+
     },
 
     {
-      title: "Twitter",
+      title: "Instagram",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/sakethram88/",
     },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/sakethram88?tab=overview&from=2025-04-01&to=2025-04-08",
     },
   ];
   return (
     <div className="flex items-center justify-center h-[35rem] w-full">
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        mobileClassName="translate-y-20" 
         items={links}
       />
     </div>

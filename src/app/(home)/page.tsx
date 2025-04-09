@@ -15,7 +15,7 @@ export default function Home() {
       <div className="-mt-20 m-0 p-0">
         <TimelineDemo />
       </div>
-      <div className="-mt-50 p-0">
+      <div className="-mt-50 -mb-50 -p-100">
         <FloatingDockDemo />
       </div>
     </div>
