@@ -74,7 +74,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <ul className="text-neutral-800 dark:text-neutral-200 text-2xl font-semibold mb-8 list-disc list-inside space-y-4">
-            <li>Achieved the Licentiate of Trinity College London in Piano Performance.</li>
+            <li>Was Awarded Licentiate of Trinity College London Diploma in Piano Performance.</li>
           </ul>
         </div>
       ),
@@ -84,7 +84,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <ul className="text-neutral-800 dark:text-neutral-200 text-2xl font-semibold mb-8 list-disc list-inside space-y-4">
-            <li>Awarded the Associate of Trinity College London in Piano Performance.</li>
+            <li>Was Awarded Associate of Trinity College London Diploma in Piano Performance.</li>
           </ul>
         </div>
       ),
